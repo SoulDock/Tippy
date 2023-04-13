@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA4F09B829C08ABA00497775 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F09B729C08ABA00497775 /* CustomTabBar.swift */; };
 		DA4F09BA29C099DA00497775 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F09B929C099DA00497775 /* HomeView.swift */; };
-		DA4F09BC29C09A6200497775 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4F09BB29C09A6200497775 /* SettingsView.swift */; };
 		DACEDBA129BFE97600C64793 /* TippyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEDBA029BFE97600C64793 /* TippyApp.swift */; };
 		DACEDBA329BFE97600C64793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACEDBA229BFE97600C64793 /* ContentView.swift */; };
 		DACEDBA529BFE97700C64793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACEDBA429BFE97700C64793 /* Assets.xcassets */; };
@@ -17,9 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA4F09B729C08ABA00497775 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		DA4F09B929C099DA00497775 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		DA4F09BB29C09A6200497775 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DACEDB9D29BFE97600C64793 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACEDBA029BFE97600C64793 /* TippyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyApp.swift; sourceTree = "<group>"; };
 		DACEDBA229BFE97600C64793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +38,6 @@
 		DACEDB9429BFE97600C64793 = {
 			isa = PBXGroup;
 			children = (
-				DA4F09B729C08ABA00497775 /* CustomTabBar.swift */,
 				DACEDB9F29BFE97600C64793 /* Tippy */,
 				DACEDB9E29BFE97600C64793 /* Products */,
 			);
@@ -65,7 +60,6 @@
 				DACEDBA629BFE97700C64793 /* Tippy.entitlements */,
 				DACEDBA729BFE97700C64793 /* Preview Content */,
 				DA4F09B929C099DA00497775 /* HomeView.swift */,
-				DA4F09BB29C09A6200497775 /* SettingsView.swift */,
 			);
 			path = Tippy;
 			sourceTree = "<group>";
@@ -148,10 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA4F09BC29C09A6200497775 /* SettingsView.swift in Sources */,
 				DACEDBA329BFE97600C64793 /* ContentView.swift in Sources */,
 				DA4F09BA29C099DA00497775 /* HomeView.swift in Sources */,
-				DA4F09B829C08ABA00497775 /* CustomTabBar.swift in Sources */,
 				DACEDBA129BFE97600C64793 /* TippyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
